@@ -37,7 +37,7 @@
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-body py-2 pe-3 border-end" href=""><small>FAQs</small></a>
-                    <!-- <a class="text-body py-2 px-3 border-end" href=""><small>Support</small></a> -->
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Support</small></a>
                     <a class="text-body py-2 px-3 border-end" href=""><small>Privacy</small></a>
                     <!-- <a class="text-body py-2 px-3 border-end" href=""><small>Policy</small></a>
                     <a class="text-body py-2 ps-3" href=""><small>Career</small></a> -->
@@ -71,9 +71,17 @@
                 <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="blog.html" class="nav-item nav-link">Blog</a>
-                <a href="team.html" class="nav-item nav-link">Team</a>
-                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="blog.html" class="dropdown-item">Blog</a>
+                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="quote.html" class="dropdown-item active">Quote Form</a>
+                        <a href="team.html" class="dropdown-item">The Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -85,10 +93,10 @@
     <div class="container-fluid bg-dark p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">FAQ</h1>
+                <h1 class="display-4 text-white">Free Quote</h1>
                 <a href="index.html">Home</a>
                 <i class="far fa-square text-primary px-2"></i>
-                <!-- <a href="">Free Quote</a> -->
+                <a href="">Free Quote</a>
             </div>
         </div>
     </div>
@@ -96,43 +104,48 @@
 
 
     <!-- Quote Start -->
-    <main style="margin-bottom: 100px;">
-        <h1 class="faq-heading">FAQ'S</h1>
-        <section class="faq-container">
-            <div class="faq-one">
-                <!-- faq question -->
-                <h5 class="faq-page">Is communication the only program you run</h5>
-
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>we run all types of courses </p>
+    <div class="container-fluid bg-secondary px-0">
+        <div class="row g-0">
+            <div class="col-lg-6 py-6 px-5">
+                <h1 class="display-5 mb-4">Request A Free Quote</h1>
+                <p class="mb-4">Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea kasd et dolor diam tempor. Nonumy sed dolore no eirmod sit nonumy vero lorem amet stet diam at. Ea at lorem sed et, lorem et rebum ut eirmod gubergren, dolor ea duo diam justo dolor diam ipsum dolore stet stet elitr ut. Ipsum amet labore lorem lorem diam magna sea, eos sed dolore elitr.</p>
+                <form>
+                    <div class="row gx-3">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="form-floating-1" placeholder="John Doe">
+                                <label for="form-floating-1">Full Name</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="form-floating-2" placeholder="name@example.com">
+                                <label for="form-floating-2">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect" aria-label="Financial OliMelancy">
+                                    <option selected>Financial OliMelancy</option>
+                                    <option value="1">Strategy OliMelancy</option>
+                                    <option value="2">Tax OliMelancy</option>
+                                </select>
+                                <label for="floatingSelect">Select A Service</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-primary w-100 h-100" type="submit">Request A Quote</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="img/quote.jpg" style="object-fit: cover;">
                 </div>
             </div>
-            <hr class="hr-line">
-
-            <div class="faq-two">
-
-                <!-- faq question -->
-                <h5 class="faq-page">where is the school located</h5>
-
-                <!-- faq answer -->
-
-                <div class="faq-body">
-                    <p> the head office is at adabraka kojo thompson road</p>
-                </div>
-            </div>
-            <hr class="hr-line">
-            <div class="faq-three">
-                <!-- faq question -->
-                <h5 class="faq-page">how do we gain admission</h5>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>you can get admission by buying AUCC forms online and apply with your certificate</p>
-                </div>
-            </div>
-
-        </section>
-    </main>
+        </div>
+    </div>
     <!-- Quote End -->
     
 
